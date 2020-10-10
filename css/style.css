@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+  }
+
+  #welcome-section {
+    top: 80px;
+    height: 100vh;
+    background-color: #2f3034;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  body {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      background: purple
+  }
+
+
+  #navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100vw;
+    background-color:blueviolet;
+    display: flex;
+    z-index: 10;
+  }
+
+  @media screen and (min-width: 700px) {
+
+  
+    #welcome-section > h1 {
+      font-size: 3.3rem;
+      margin-bottom: 15px;
+    }
+  
+    #welcome-section > p {
+      font-size: 1.8rem;
+      font-style: italic;
+    }
+  }
+
+  #projects {
+      text-align:center;
+  }
+
+  #contact{
+      text-align: center;
+  }
+  
+  
+  
